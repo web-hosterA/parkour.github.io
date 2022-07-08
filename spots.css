@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: #7209b7;
+    color: #fff;
+}
+
+
+button {
+    margin-left: 15px;
+    margin-top: 15px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+    color: #094b65;
+    height: 36px;
+    transition: all 0.25s;
+}
+
+button:hover {
+    background-color: #094b65;
+    color: #fff;
+}
+
+button:active {
+    opacity: 0.67;
+}
+
+button.accueil {
+    width: 90px;
+    border-radius: 30px;
+    margin-left: 30%;
+}
+
+button.histoire {
+    width: 80px;
+    border-radius: 30px;
+}
+
+button.spots {
+    width: 170px;
+    border-radius: 60px;
+}
+
+button.athletes {
+    width: 215px;
+    border-radius: 80px;
+}
+
+button.freerunning {
+    width: 240px;
+    border-radius: 90px;
+}
+
+button.problemes {
+    width: 145px;
+    border-radius: 50px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    color: #fff;
+}
+
+p {
+    margin-left: 15px;
+    color: #fff;
+}
+
+body {
+    background-image: url(imax.jpg);
+    background-size: cover;
+    max-height: 19vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.sec {
+    background-color: #131313;
+    position: relative;
+    padding: 100px;
+    display: block;
+    margin: 0;
+    width: 100vw;
+}
+
+.sec p {
+    font-weight: 400;
+    margin-left: 2px;
+    color: #fff;
+}
+
+div {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+
+div #text {
+    position: absolute;
+    font-size: 10vh;
+    line-height: 0.85em;
+    transform: translateY(-50%);
+}
+
+img.sr {
+    width: 600px;
+}
+
+img.mp {
+    width: 600px;
+}
+
+img.lisses {
+    width: 600px;
+}
+
+img.cp {
+    width: 600px;
+}
